@@ -149,27 +149,27 @@
 @keyframes button-top-complete {
     0% {
         left: 10%;
-        top: calc(0% - 3px);
+        top: calc(0% - 10px);
     }
     25%{
         left: 80%;
-        top: calc(0% - 3px);
+        top: calc(0% - 10px);
     }
     50% {
         left: 80%;
         top: 100%;
     }
     75% {
-        left: calc(0% - 3px);
+        left: calc(0% - 30px);
         top: 100%;
     }
     90% {
-        top: calc(0% - 3px);
-        left: calc(0% - 3px);
+        top: calc(0% - 10px);
+        left: calc(0% - 30px);
     }
     100% {
         left: 10%;
-        top: calc(0% - 3px);
+        top: calc(0% - 10px);
     }
 }
 
@@ -179,16 +179,16 @@
         top: 100%;
     }
     25%{
-        left: calc(0% - 3px);
+        left: calc(0% - 30px);
         top: 100%;
     }
     50% {
-        left: calc(0% - 3px);
-        top: calc(0% - 3px);
+        left: calc(0% - 30px);
+        top: calc(0% - 10px);
     }
     75% {
         left: 100%;
-        top: calc(0% - 3px);
+        top: calc(0% - 10px);
     }
     90% {
         top: 100%;
@@ -202,10 +202,10 @@
 
 .ex-13-button:hover .ex-13-top-white {
     position: absolute;
-    animation: button-top-complete 1.5s linear;
+    animation: button-top-complete 2s linear;
 }
 
 .ex-13-button:hover .ex-13-bottom-white {
     position: absolute;
-    animation: button-bottom-complete 1.5s linear;
+    animation: button-bottom-complete 2s linear;
 }
